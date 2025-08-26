@@ -1,0 +1,26 @@
+{
+  "name": "fisioapp",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start -c",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "53.0.22",
+    "expo-linking": "~7.1.7",
+    "expo-sqlite": "~15.2.14",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~13.0.0"
+  }
+}

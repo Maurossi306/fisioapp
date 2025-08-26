@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "FisioApp",
+    "slug": "fisioapp",
+    "scheme": "fisioapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.xmobi.fisioapp"
+    },
+    "android": {
+      "package": "br.com.xmobi.fisioapp"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}
